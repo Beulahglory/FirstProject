@@ -1,0 +1,3 @@
+GitHub           Git Copy folder         Working Folder
+test1.txt   -->  test1.txt (clone)     -->  test1.txt
+                                            test2.txt(Untracked) i.e. Not yet Moved To Git Copy Folder
