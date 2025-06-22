@@ -1,3 +1,55 @@
 GitHub           Git Copy folder         Working Folder
 test1.txt   -->  test1.txt (clone)     -->  test1.txt
                                             test2.txt(Untracked) i.e. Not yet Moved To Git Copy Folder
+
+
+git clone <copied link from GitHub FirstProject repo>
+ls -la
+git status
+
+bhebhzib@LIN-5CG1196TWW MINGW64 ~/Git
+$ cd FirstProject/
+
+bhebhzib@LIN-5CG1196TWW MINGW64 ~/Git/FirstProject (main)
+$ ls
+test1.txt
+
+bhebhzib@LIN-5CG1196TWW MINGW64 ~/Git/FirstProject (main)
+$ ls -la
+total 8
+drwxr-xr-x 1 bhebhzib 1049089    0 Jun 22 18:33 .
+drwxr-xr-x 1 bhebhzib 1049089    0 Jun 22 18:33 ..
+drwxr-xr-x 1 bhebhzib 1049089    0 Jun 22 18:33 .git
+-rw-r--r-- 1 bhebhzib 1049089 2787 Jun 22 18:33 test1.txt
+
+bhebhzib@LIN-5CG1196TWW MINGW64 ~/Git/FirstProject (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+bhebhzib@LIN-5CG1196TWW MINGW64 ~/Git/FirstProject (main)
+$ git add .
+
+
+_____________________________________________
+How Create a file and add it to your Git repo
+Step-3 : git add
+
+Command 3 : "git add test2.txt"
+The "git add" command is used in Git to add changes or new files to the staging area.
+The staging area is where you prepare your changes before committing them to the repository.
+
+
+Git Folder    Git Copy Folder         Working Folder                          Staging area
+test1.txt  -->  test1.txt   --> test1.txt
+                                test2.txt(Added) i.e. Added to Staging Area --> test2.txt
+                                git add .
+                                                                            text2.txt sends to Git Copy Folder
+                                                                            git commit -m "updated"
+                                                        

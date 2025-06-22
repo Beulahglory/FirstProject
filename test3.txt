@@ -1,0 +1,9 @@
+github -> git copy Folder -> working folder --> Staging folder
+
+github to local clone has 2 folders (git copy folder & working folder)
+test2.txt created in working folder by local / client side repo / computer
+To track this test2.txt [ git add . ] goes to staging area
+Copied to git copy folder [git commit -m "test2 added"] 
+Copied to github repo (server side) [git push origin]
+
+INSERT -> ADD -> COMMIT -> push
