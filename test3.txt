@@ -6,4 +6,8 @@ To track this test2.txt [ git add . ] goes to staging area
 Copied to git copy folder [git commit -m "test2 added"] 
 Copied to github repo (server side) [git push origin]
 
-INSERT -> ADD -> COMMIT -> push
+INSERT  ->  ADD    -> COMMIT          -> push
+working -> staging -> git copy folder -> github
+local/client                          -> server/internet
+
+origin -> repo clone link
