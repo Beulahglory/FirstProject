@@ -1,1 +1,10 @@
 This is to be cautious danger zone ahead
+
+#deletes test3.txt file
+git status (shows the test3 deleted)
+git add test3.txt (bringing file to staging area)
+git commit -m "deleted test2.txt" (happens in git folder)
+git push origin main
+
+for newly creation --> git clone
+for changes update --> git pull
